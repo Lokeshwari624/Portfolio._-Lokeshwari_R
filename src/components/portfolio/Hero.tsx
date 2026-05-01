@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, FileText, Github, Linkedin, Phone } from "lucide-react";
+import { ArrowRight, Mail, Github, Linkedin, Phone } from "lucide-react";
 
 const LINKEDIN =
   "https://www.linkedin.com/posts/lokeshwari-ramesh-20b61a36a_audionex-techsprint-ieee-ugcPost-7429716004269715456-iono";
@@ -32,8 +32,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-5xl font-bold leading-[1.05] tracking-tight sm:text-7xl md:text-8xl"
         >
-          Hi, I&apos;m{" "}
-          <span className="text-gradient animate-gradient">Lokeshwari R</span>
+          <span className="text-gradient animate-gradient">Lokeswari R</span>
         </motion.h1>
 
         <motion.div
@@ -101,13 +100,13 @@ export function Hero() {
             href="#contact"
             className="inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold transition-all hover:bg-white/10"
           >
-            <Mail className="h-4 w-4" /> Contact Me
+            <Phone className="h-4 w-4" /> Contact
           </a>
           <a
-            href="mailto:rlokeswari23@gmail.com?subject=Resume%20Request"
+            href="mailto:rlokeswari23@gmail.com"
             className="inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold transition-all hover:bg-white/10"
           >
-            <FileText className="h-4 w-4" /> Resume
+            <Mail className="h-4 w-4" /> Mail
           </a>
         </motion.div>
       </div>
