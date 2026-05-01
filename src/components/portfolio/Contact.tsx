@@ -75,9 +75,6 @@ export function Contact() {
           </motion.form>
         </div>
 
-        <p className="mt-12 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Lokeshwari R · Built with creativity & code.
-        </p>
       </div>
     </section>
   );
