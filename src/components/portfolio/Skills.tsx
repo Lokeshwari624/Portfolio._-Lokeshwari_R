@@ -8,17 +8,12 @@ const groups = [
   {
     icon: Layout,
     title: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React.js (learning)"],
+    items: ["HTML", "CSS", "JavaScript", "React.js"],
   },
   {
     icon: Server,
     title: "Backend",
-    items: ["Node.js (basic)", "REST APIs", "Express (learning)"],
-  },
-  {
-    icon: Palette,
-    title: "Design",
-    items: ["UI/UX Fundamentals", "Figma (basic)", "Canva", "Storytelling"],
+    items: ["Node.js", "Express", "REST APIs"],
   },
   {
     icon: Wrench,
@@ -26,9 +21,14 @@ const groups = [
     items: ["Git", "GitHub", "VS Code", "Figma", "Canva", "Microsoft Word"],
   },
   {
+    icon: Palette,
+    title: "Design",
+    items: ["UI/UX Fundamentals", "Figma", "Canva", "Wireframing"],
+  },
+  {
     icon: Code,
-    title: "Currently Learning",
-    items: ["React.js", "Node.js", "Generative AI", "Full-Stack Apps"],
+    title: "Focus Areas",
+    items: ["Full-Stack Development", "Generative AI", "Cybersecurity"],
   },
   {
     icon: Heart,

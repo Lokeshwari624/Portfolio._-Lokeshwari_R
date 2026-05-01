@@ -1,25 +1,31 @@
 import { motion } from "framer-motion";
 import { SectionHeader } from "./About";
-import { Github, ExternalLink, Shield, Flame, Bot } from "lucide-react";
+import { Github, ExternalLink, Shield, Flame, Sprout, Sun } from "lucide-react";
 
 const projects = [
   {
     icon: Shield,
-    title: "Phishing URL Detection",
-    desc: "ML-based system that classifies suspicious URLs in real time using lexical and host-based features.",
-    tags: ["Python", "ML", "Security"],
+    title: "Phishing Detection Web App",
+    desc: "Detects fake emails and malicious links, displaying risk levels and detailed analysis. Focused on cybersecurity and a clean analyst-friendly UI.",
+    tags: ["Python", "ML", "Web", "Security"],
   },
   {
     icon: Flame,
-    title: "Gas Leakage Detection",
-    desc: "IoT prototype using MQ sensors + microcontroller to alert users on gas leaks via buzzer & notifications.",
-    tags: ["IoT", "Arduino", "C++"],
+    title: "Gas Leakage Detection System",
+    desc: "IoT prototype using MQ sensors and a microcontroller to detect gas leaks and trigger real-time buzzer and notification alerts.",
+    tags: ["IoT", "Arduino", "Embedded C"],
   },
   {
-    icon: Bot,
-    title: "Audionex – TechSprint",
-    desc: "IEEE event project — an audio-driven interactive experience built collaboratively in a hackathon sprint.",
-    tags: ["Web", "Audio", "Team"],
+    icon: Sprout,
+    title: "Soil Moisture Monitoring System",
+    desc: "Humidity-sensor based system that monitors soil moisture levels to support smart irrigation decisions for sustainable farming.",
+    tags: ["IoT", "Sensors", "Sustainability"],
+  },
+  {
+    icon: Sun,
+    title: "Solar Automatic Street Light",
+    desc: "Energy-efficient street lighting system that automatically switches ON/OFF using solar energy and ambient light sensing.",
+    tags: ["Solar", "Embedded", "Automation"],
   },
 ];
 

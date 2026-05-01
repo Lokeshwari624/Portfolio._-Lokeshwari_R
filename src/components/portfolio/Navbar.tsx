@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { Menu, X, Sparkles } from "lucide-react";
 
 const links = [
+  { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
@@ -39,7 +39,7 @@ export function Navbar() {
           }`}
         >
           <Sparkles className="h-4 w-4 text-[var(--neon-purple)]" />
-          <span className="text-gradient">Lokeshwari R</span>
+          <span className="text-gradient">Lokeswari R</span>
         </a>
 
         <nav className="hidden items-center gap-1 rounded-full glass px-2 py-2 lg:flex">
@@ -56,16 +56,10 @@ export function Navbar() {
 
         <div className="hidden items-center gap-2 md:flex">
           <a
-            href="#contact"
-            className="rounded-full glass px-4 py-2 text-sm font-medium transition-all hover:bg-white/10"
-          >
-            Contact
-          </a>
-          <a
             href="mailto:rlokeswari23@gmail.com"
             className="relative inline-flex items-center gap-2 rounded-full bg-gradient-primary px-4 py-2 text-sm font-semibold text-white shadow-[var(--shadow-glow)] transition-transform hover:scale-105 animate-gradient"
           >
-            <span className="relative z-10">Hire Me</span>
+            <span className="relative z-10">Get in touch</span>
           </a>
         </div>
 
@@ -99,7 +93,7 @@ export function Navbar() {
               href="mailto:rlokeswari23@gmail.com"
               className="mt-2 rounded-lg bg-gradient-primary px-3 py-2 text-center text-sm font-semibold text-white"
             >
-              Hire Me
+              Get in touch
             </a>
           </div>
         </motion.div>
