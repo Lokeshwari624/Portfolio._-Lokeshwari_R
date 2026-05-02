@@ -27,13 +27,16 @@ JavaScript
 
 ---
 
-📂 Project Structure
+project-root/
+│
 ├── public/
+│
 ├── src/
 │   ├── components/
 │   ├── pages/
 │   ├── assets/
 │   └── main.jsx
+│
 ├── index.html
 ├── package.json
 └── README.md
