@@ -27,6 +27,7 @@ JavaScript
 
 ---
 
+📂 Project Structure
 project-root/
 │
 ├── public/
