@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
@@ -9,21 +8,7 @@ import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 import { ParticleBackground } from "@/components/portfolio/ParticleBackground";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-  head: () => ({
-    meta: [
-      { title: "Lokeswari R — Full Stack Developer & Gen AI Enthusiast" },
-      {
-        name: "description",
-        content:
-          "Portfolio of Lokeswari R — Full Stack Developer, Gen AI Enthusiast, and UI/UX Designer building impactful tech solutions with creativity and innovation.",
-      },
-    ],
-  }),
-});
-
-function Index() {
+export default function App() {
   return (
     <div className="relative min-h-screen overflow-x-hidden">
       <ParticleBackground />
